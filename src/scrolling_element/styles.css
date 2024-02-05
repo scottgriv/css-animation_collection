@@ -1,0 +1,18 @@
+body {
+    height: 500vh
+  }
+  
+  .ast-below-header-bar {
+    display: grid;
+    position: fixed;
+    right: -150px;
+    top: 14%;
+    background: green;
+    height: 200px;
+    width: 200px;
+    transition: .3s;
+  }
+  
+  .ast-below-header-bar.filterr {
+    right: 7px!important;
+  }
