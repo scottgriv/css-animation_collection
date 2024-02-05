@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="https://github.com/scottgriv/css-animation_collection" target="_blank">
-        <img src="./docs/images/icon.png" width="150" height="150"/>
+        <img src="./docs/images/icon.png" width="200" height="200"/>
     </a>
 </div>
 <br>
