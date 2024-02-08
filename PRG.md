@@ -13,7 +13,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 ## Project Information
 
 **Repository Tier:** Bronze <br>
-**Technology:** CSS, HTML, JavaScript <br>
+**Technology:** CSS, HTML, JavaScript, Stack Overflow <br>
 **Category:** Animations <br>
 **Order:** 0 <br>
 

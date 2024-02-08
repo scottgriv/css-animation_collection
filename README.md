@@ -10,6 +10,7 @@
     <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-ES13-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript Badge" /></a>
     <a href="https://www.w3schools.com/html/"><img src="https://img.shields.io/badge/HTML-5-E34F26?style=for-the-badge&logo=html5" alt="HTML Badge" /></a>
     <a href="https://www.w3schools.com/css/)"><img src="https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3" alt="CSS Badge" /></a>
+    <a href="https://stackoverflow.com/questions/74825198/close-to-end-of-the-page-element-needs-to-disappear"><img src="https://img.shields.io/badge/Stack_Overflow-Answer-F58025?style=for-the-badge&logo=stackoverflow" alt="Stack Overflow Badge" /></a>
     <br>
     <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-181717?style=for-the-badge&logo=github&color=181717" alt="GitHub Badge" /></a>
     <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
