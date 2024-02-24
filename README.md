@@ -26,6 +26,18 @@
 A collection of useful animations built using CSS.
 
 This collection consists of the following animations:
+
+- **Font Awesome Bouncing Icon CSS Recreation**: [Font Awesome's bounce effect](https://fontawesome.com/docs/web/style/animate#bounce) recreated using only CSS.
+    - Folder Path: `src/bounce_effect` 
+    - View it on CodePen [here](https://codepen.io/scottgriv/pen/zYbVEww).
+
+<div align="center">
+    <a href="https://codepen.io/scottgriv/pen/zYbVEww"><img src="./docs/images/demo_4.gif" width="50%" /></a>
+    <br>
+    <i>Font Awesome Bouncing Icon CSS Recreation</i>
+</div>
+<br>
+
 - **Wave Animation:** A rising and falling wave activity indicator animation built using CSS.
     - Folder Path: `src/wave_animation` 
     - View it on CodePen [here](https://codepen.io/scottgriv/pen/OJrpBvg).
@@ -74,8 +86,7 @@ This collection consists of the following animations:
 2. View each animation by following the paths mentioned above.
 3. Open the ```index.html``` file in your web browser.
 4. View the animation.
-
-Feel free to plug in the animations into your own projects.
+5. Feel free to plug in the animations into your own projects.
 
 ## Resources
 
