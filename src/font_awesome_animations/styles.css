@@ -1,0 +1,237 @@
+/* 🌟 Center Text */
+.center-text {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* 🎭 Icons Row: Display Horizontally */
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* 🔳 Icon Container */
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 🔠 Labels */
+.icon-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* 🖼️ SVG Icons - Remove Borders */
+svg {
+  width: 60px;
+  height: 60px;
+  fill: currentColor;
+}
+
+/* 🎨 Different Colors for Each Icon */
+.beat {
+  color: #e63946;
+} /* Red */
+.fade {
+  color: #457b9d;
+} /* Blue */
+.beat-fade {
+  color: #a8dadc;
+} /* Light Blue */
+.bounce {
+  color: #f4a261;
+} /* Orange */
+.flip {
+  color: #2a9d8f;
+} /* Teal */
+.shake {
+  color: #e9c46a;
+} /* Yellow */
+.spin {
+  color: #264653;
+} /* Dark Blue */
+.spin-reverse {
+  color: #8e44ad;
+} /* Purple */
+.spin-pulse {
+  color: #27ae60;
+} /* Green */
+.no-animation {
+  color: #95a5a6;
+} /* Gray */
+
+/* ❤️ Beat Animation */
+@keyframes beat {
+  0%,
+  90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.25);
+  }
+}
+.beat {
+  animation: beat 1s infinite ease-in-out;
+}
+
+/* 🎭 Fade Animation */
+@keyframes fade {
+  50% {
+    opacity: 0.4;
+  }
+}
+.fade {
+  animation: fade 1.5s infinite ease-in-out;
+}
+
+/* 💓 Beat-Fade Animation */
+@keyframes beat-fade {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.125);
+  }
+}
+.beat-fade {
+  animation: beat-fade 1s infinite ease-in-out;
+}
+
+/* 🏀 Bounce Animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-1.2em);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.3em);
+  }
+  64%,
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+.bounce {
+  animation: bounce 1s infinite cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+
+/* 🔄 Flip Animation */
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  45% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  } /* Short pause */
+  95% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  } /* Short pause */
+}
+.flip {
+  animation: flip 1s infinite ease-in-out;
+}
+
+/* 📳 Shake Animation */
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%,
+  24% {
+    transform: rotate(-18deg);
+  }
+  12%,
+  28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%,
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.shake {
+  animation: shake 1s infinite ease-in-out;
+  transform-origin: center;
+}
+
+/* 🌀 Spin Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin 2s infinite linear;
+}
+
+/* 🔄 Spin Reverse Animation */
+@keyframes spin-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.spin-reverse {
+  animation: spin-reverse 2s infinite linear;
+}
+
+/* 🔄 Spin Pulse (Stepped) */
+@keyframes spin-pulse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin-pulse {
+  animation: spin-pulse 1s infinite steps(8);
+}
+
+/* 🚫 No Animation */
+.no-animation {
+  animation: none;
+}

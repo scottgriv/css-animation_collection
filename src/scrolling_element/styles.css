@@ -13,6 +13,6 @@ body {
     transition: .3s;
   }
   
-  .ast-below-header-bar.filterr {
+  .ast-below-header-bar.filter {
     right: 7px!important;
   }

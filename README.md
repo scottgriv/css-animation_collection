@@ -27,14 +27,14 @@ A collection of useful animations built using CSS.
 
 This collection consists of the following animations:
 
-- **Font Awesome Bouncing Icon CSS Recreation**: [Font Awesome's bounce effect](https://fontawesome.com/docs/web/style/animate#bounce) recreated using only CSS.
-    - Folder Path: `src/bounce_effect` 
+- **Font Awesome CSS Animations**: [Animations from Font Awesome](https://fontawesome.com/docs/web/style/animate) recreated using only CSS.
+    - Folder Path: `src/font_awesome_animations` 
     - View it on CodePen [here](https://codepen.io/scottgriv/pen/zYbVEww).
 
 <div align="center">
     <a href="https://codepen.io/scottgriv/pen/zYbVEww"><img src="./docs/images/demo_4.gif" width="50%" /></a>
     <br>
-    <i>Font Awesome Bouncing Icon CSS Recreation</i>
+    <i>Font Awesome CSS Animations.</i>
 </div>
 <br>
 
@@ -48,6 +48,9 @@ This collection consists of the following animations:
     <i>Wave Animation.</i>
 </div>
 <br>
+
+> ![NOTE]
+> Adjustments may need to be made for this to fit your desired screen size.
 
 - **Spinning Activity Indicator Animation:** A spinning activity indicator animation built using CSS.
     - Folder Path: `src/spinner_animation` 
